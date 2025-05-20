@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\bin\Debug\net9.0\Lezione2.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\bin\Debug\net9.0\Lezione2.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\bin\Debug\net9.0\Lezione2.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\bin\Debug\net9.0\Lezione2.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\bin\Debug\net9.0\Lezione2.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\refint\Lezione2.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\Lezione2.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione2\obj\Debug\net9.0\ref\Lezione2.dll

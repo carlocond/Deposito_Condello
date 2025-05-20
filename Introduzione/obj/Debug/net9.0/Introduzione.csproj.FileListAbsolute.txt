@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\bin\Debug\net9.0\Introduzione.exe
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\bin\Debug\net9.0\Introduzione.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\bin\Debug\net9.0\Introduzione.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\bin\Debug\net9.0\Introduzione.dll
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\bin\Debug\net9.0\Introduzione.pdb
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.dll
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\refint\Introduzione.dll
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.pdb
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\Introduzione.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Introduzione\obj\Debug\net9.0\ref\Introduzione.dll
