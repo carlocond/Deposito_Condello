@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\bin\Debug\net9.0\Lezione6_Esempio.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\bin\Debug\net9.0\Lezione6_Esempio.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\bin\Debug\net9.0\Lezione6_Esempio.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\bin\Debug\net9.0\Lezione6_Esempio.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\bin\Debug\net9.0\Lezione6_Esempio.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\refint\Lezione6_Esempio.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\Lezione6_Esempio.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione6_Esempio\obj\Debug\net9.0\ref\Lezione6_Esempio.dll
