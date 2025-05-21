@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\bin\Debug\net9.0\Lezione8_Ereditarieta.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\bin\Debug\net9.0\Lezione8_Ereditarieta.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\bin\Debug\net9.0\Lezione8_Ereditarieta.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\bin\Debug\net9.0\Lezione8_Ereditarieta.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\bin\Debug\net9.0\Lezione8_Ereditarieta.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\refint\Lezione8_Ereditarieta.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\Lezione8_Ereditarieta.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Ereditarieta\obj\Debug\net9.0\ref\Lezione8_Ereditarieta.dll
