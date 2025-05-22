@@ -1,9 +1,8 @@
-﻿using System;
+using System;
 
 public class VoloAereo
 {
     private int postiOccupati = 0;
-
     const int maxPosti = 150;
 
     public string CodiceVolo { get; set; }
@@ -12,14 +11,17 @@ public class VoloAereo
     {
         get { return postiOccupati; }
     }
+
     public int PostiLiberi
     {
         get { return maxPosti - postiOccupati; }
     }
-    public VoloAereo(int postiOcc)
-    {
-        postiOccupati = postiOcc;
 
+    // Costruttore con codice volo e posti occupati iniziali
+    public VoloAereo(string codice, int postiOcc)
+    {
+        CodiceVolo = codice;
+        postiOccupati = postiOcc;
     }
 
     public void EffettuaPrenotazione(int numeroPosti)
@@ -30,24 +32,25 @@ public class VoloAereo
         }
         else if (numeroPosti <= PostiLiberi)
         {
-            Console.WriteLine($"Prenotazione di {numeroPosti} posti effettuata");
             postiOccupati += numeroPosti;
+            Console.WriteLine($"Prenotazione di {numeroPosti} posti effettuata.");
         }
         else
         {
             Console.WriteLine("Posti insufficienti");
         }
     }
+
     public void AnnullaPrenotazione(int numeroPosti)
     {
         if (numeroPosti <= 0)
         {
             Console.WriteLine("Numero non valido");
         }
-        else if (numeroPosti <= PostiOccupati)
+        else if (numeroPosti <= postiOccupati)
         {
-            Console.WriteLine($"Annullamento di {numeroPosti} posti effettuata");
             postiOccupati -= numeroPosti;
+            Console.WriteLine($"Annullamento di {numeroPosti} posti effettuato.");
         }
         else
         {
@@ -57,7 +60,7 @@ public class VoloAereo
 
     public void VisualizzaStato()
     {
-        Console.WriteLine($"Il codice del volo è {CodiceVolo}, i posti occupati sono {PostiOccupati}, i posti liberi sono {PostiLiberi}");
+        Console.WriteLine($"Codice volo: {CodiceVolo}, Posti occupati: {PostiOccupati}, Posti liberi: {PostiLiberi}");
     }
 }
 
@@ -65,39 +68,53 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        bool continua = false;
-        int codiceVoloCliente = 0;
-        VoloAereo volo = new VoloAereo();
+        Console.WriteLine("Inserisci il codice del volo:");
+        string codice = Console.ReadLine();
 
-        do
+        Console.WriteLine("Inserisci il numero iniziale di posti occupati:");
+        int iniziali = int.Parse(Console.ReadLine());
+
+        VoloAereo volo = new VoloAereo(codice, iniziali);
+
+        bool continua = true;
+
+        while (continua)
         {
-            Console.WriteLine("Scegli una delle 3 operazioni: [1] Effettua una prenotazione \n[2] Annulla prenotazione \n[3] Visualizza lo stato del volo \n[4] Esci dal programma");
+            Console.WriteLine("\nScegli un'operazione:");
+            Console.WriteLine("[1] Effettua una prenotazione");
+            Console.WriteLine("[2] Annulla prenotazione");
+            Console.WriteLine("[3] Visualizza lo stato del volo");
+            Console.WriteLine("[4] Esci dal programma");
+
             int scelta = int.Parse(Console.ReadLine());
 
             switch (scelta)
             {
                 case 1:
                     Console.WriteLine("Inserisci il numero di posti da prenotare:");
-                    int numeroPosti = int.Parse(Console.ReadLine());
-                    codiceVoloCliente = volo.
-                    volo.EffettuaPrenotazione(numeroPosti);
+                    int prenota = int.Parse(Console.ReadLine());
+                    volo.EffettuaPrenotazione(prenota);
                     break;
+
                 case 2:
                     Console.WriteLine("Inserisci il numero di posti da annullare:");
-                    int postiDaAnnullare = int.Parse(Console.ReadLine());
-                    volo.CodiceVolo = codiceVoloCliente;
-                    volo.AnnullaPrenotazione(postiDaAnnullare);
+                    int annulla = int.Parse(Console.ReadLine());
+                    volo.AnnullaPrenotazione(annulla);
                     break;
-                case 3:
 
-                    volo.CodiceVolo = codiceVoloCliente;
+                case 3:
                     volo.VisualizzaStato();
                     break;
+
                 case 4:
                     Console.WriteLine("Uscita dal programma.");
                     continua = false;
                     break;
+
+                default:
+                    Console.WriteLine("Scelta non valida.");
+                    break;
             }
-        } while (!continua);
+        }
     }
 }
