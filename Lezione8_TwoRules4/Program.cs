@@ -1,40 +1,38 @@
-using System;
+﻿using System;
+using System.Runtime.Intrinsics.Arm;
 
 public class Soldato
 {
-    private string nome;
-    private int anniServizio;
+    private string nomeS;
+    private string gradoS;
+    private int anniServizioS;
 
     public string Nome
     {
-        get { return nome; }
-        set { nome = value; }
+        get { return nomeS; }
+        set { nomeS = value; }
     }
-
-    public string Grado { get; set; }
-
+    public string Grado
+    {
+        get { return gradoS; }
+        set { gradoS = value; }
+    }
     public int AnniServizio
     {
-        get { return anniServizio; }
+        get { return anniServizioS; }
         set
         {
             if (value >= 0)
             {
-                anniServizio = value;
+                anniServizioS = value;
             }
             else
             {
-                Console.WriteLine("Errore: anni di servizio non validi.");
+                Console.WriteLine("Anni di servizio non validi");
             }
         }
     }
-
-    public Soldato(string nome, string grado, int anniServizio)
-    {
-        Nome = nome;
-        Grado = grado;
-        AnniServizio = anniServizio;
-    }
+ 
 
     public virtual void Descrizione()
     {
@@ -44,17 +42,111 @@ public class Soldato
 
 public class Fante : Soldato
 {
-    public string Arma { get; set; }
+    private string arma;
 
-    public Fante(string nome, string grado, int anniServizio, string armaPosseduta)
-        : base(nome, grado, anniServizio)
+    public string Arma
     {
-        Arma = armaPosseduta;
+        get { return arma; }
+        set { arma = value; }
     }
+
+
 
     public override void Descrizione()
     {
-        Console.WriteLine($"Il nome del fante è {Nome}, il grado è {Grado}, gli anni di servizio sono {AnniServizio}, e utilizza l'arma: {Arma}");
+        Console.WriteLine($"Il nome del soldato è  {Nome} il grado è {Grado}, gli anni di servizio sono {AnniServizio} e la sua arma è {Arma}");
+    }
+}
+
+public class Artigliere : Soldato
+{
+    private int calibro;
+    public int Calibro
+    {
+        get { return calibro; }
+        set {
+            if (value > 0)
+            {
+                calibro = value;
+            }
+            else
+            {
+                Console.WriteLine("Calibro non valido");
+            }
+        }
+    }
+
+
+    public override void Descrizione()
+    {
+        Console.WriteLine($"Il nome del soldato è {Nome}, il grado è {Grado}, gli anni di servizio sono {AnniServizio} e il suo calibro è {Calibro}");
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        List<Soldato> esercito = new List<Soldato>();
+        bool continua = true;
+
+        while (continua)
+        {
+            Console.WriteLine("Scegli una delle 4 opzioni: [A] Aggiungi un fante \n[B] Aggiungi un artigliere \n[C] Visualizza tutti i soldati \n[D] Esci dal programma");
+            string scelta = Console.ReadLine();
+
+            switch (scelta)
+            {
+                case "A":
+                    Fante f = new Fante();
+                    Console.WriteLine("Inserisci il nome del fante");
+                     f.Nome = Console.ReadLine();
+
+                    Console.WriteLine("Inserisci il grado del fante");
+                    f.Grado = Console.ReadLine();
+
+                    Console.WriteLine("Inserisci gli anni di servizio");
+                    f.AnniServizio = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Inserisci l'arma utilizzata");
+                    f.Arma = Console.ReadLine();
+                    esercito.Add(f);
+
+                    break;
+                case "B":
+                    Artigliere a = new Artigliere();
+                    Console.WriteLine("Inserisci il nome dell'artigliere");
+                    a.Nome = Console.ReadLine();
+
+                    Console.WriteLine("Inserisci il grado dell'artigliere");
+                    a.Grado = Console.ReadLine();
+
+                    Console.WriteLine("Inserisci gli anni di servizio");
+                    a.AnniServizio = int.Parse(Console.ReadLine());
+
+                    Console.WriteLine("Inserisci il valore del calibro (mm)");
+                    a.Calibro = int.Parse(Console.ReadLine());
+                    esercito.Add(a);
+                    break;
+
+                    
+                case "C":
+                    Console.WriteLine("Ecco i soldati presenti all'interno dell'esercito");
+                    foreach (Soldato s in esercito)
+                    {
+                        s.Descrizione();
+                    }
+                    break;
+                case "D":
+                    Console.WriteLine("Arrivederci");
+                    continua = false;
+                    break;
+
+                default:
+                    Console.WriteLine("Errore scelta non valida");
+                    break;
+            }
+        }
     }
 }
 

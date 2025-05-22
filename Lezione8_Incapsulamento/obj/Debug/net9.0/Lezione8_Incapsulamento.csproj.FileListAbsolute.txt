@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\bin\Debug\net9.0\Lezione8_Incapsulamento.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\bin\Debug\net9.0\Lezione8_Incapsulamento.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\bin\Debug\net9.0\Lezione8_Incapsulamento.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\bin\Debug\net9.0\Lezione8_Incapsulamento.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\bin\Debug\net9.0\Lezione8_Incapsulamento.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\refint\Lezione8_Incapsulamento.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\Lezione8_Incapsulamento.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Incapsulamento\obj\Debug\net9.0\ref\Lezione8_Incapsulamento.dll

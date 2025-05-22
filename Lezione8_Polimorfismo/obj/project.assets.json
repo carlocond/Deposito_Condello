@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlo\\Desktop\\corso_cs\\Lezione8_TwoRules4\\Lezione8_TwoRules.csproj",
-      "projectName": "Lezione8_TwoRules",
-      "projectPath": "C:\\Users\\Carlo\\Desktop\\corso_cs\\Lezione8_TwoRules4\\Lezione8_TwoRules.csproj",
+      "projectUniqueName": "C:\\Users\\Carlo\\Desktop\\corso_cs\\Lezione8_Polimorfismo\\Lezione8_Polimorfismo.csproj",
+      "projectName": "Lezione8_Polimorfismo",
+      "projectPath": "C:\\Users\\Carlo\\Desktop\\corso_cs\\Lezione8_Polimorfismo\\Lezione8_Polimorfismo.csproj",
       "packagesPath": "C:\\Users\\Carlo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlo\\Desktop\\corso_cs\\Lezione8_TwoRules4\\obj\\",
+      "outputPath": "C:\\Users\\Carlo\\Desktop\\corso_cs\\Lezione8_Polimorfismo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"

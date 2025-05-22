@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\bin\Debug\net9.0\Lezione8_TwoRules.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\bin\Debug\net9.0\Lezione8_TwoRules.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\bin\Debug\net9.0\Lezione8_TwoRules.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\bin\Debug\net9.0\Lezione8_TwoRules.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\bin\Debug\net9.0\Lezione8_TwoRules.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\refint\Lezione8_TwoRules.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\Lezione8_TwoRules.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_TwoRules4\obj\Debug\net9.0\ref\Lezione8_TwoRules.dll
