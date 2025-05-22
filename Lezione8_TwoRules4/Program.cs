@@ -1,38 +1,39 @@
-﻿using System;
-using System.Runtime.Intrinsics.Arm;
+using System;
 
 public class Soldato
 {
-    private string nomeS;
-    private string gradoS;
-    private int anniServizioS;
+    private string nome;
+    private int anniServizio;
 
     public string Nome
     {
-        get { return nomeS; }
-        set { nomeS = value; }
+        get { return nome; }
+        set { nome = value; }
     }
+
     public string Grado { get; set; }
-    private int AnniServizio
+
+    public int AnniServizio
     {
-        get { return anniServizioS; }
+        get { return anniServizio; }
         set
         {
             if (value >= 0)
             {
-                anniServizioS = value;
+                anniServizio = value;
             }
             else
             {
-                Console.WriteLine("Errore");
+                Console.WriteLine("Errore: anni di servizio non validi.");
             }
         }
     }
+
     public Soldato(string nome, string grado, int anniServizio)
     {
-        nomeS = nome;
-        gradoS = grado;
-        anniServizioS = anniServizio;
+        Nome = nome;
+        Grado = grado;
+        AnniServizio = anniServizio;
     }
 
     public virtual void Descrizione()
@@ -43,18 +44,17 @@ public class Soldato
 
 public class Fante : Soldato
 {
-    private string arma;
-
     public string Arma { get; set; }
 
-    public Fante(string nome, string grado, int anniServizio, string armaPosseduta) : base(nome, grado, anniServizio)
+    public Fante(string nome, string grado, int anniServizio, string armaPosseduta)
+        : base(nome, grado, anniServizio)
     {
-        arma = armaPosseduta;
+        Arma = armaPosseduta;
     }
 
     public override void Descrizione()
     {
-        Console.WriteLine("Il nome del soldato è " + get.nomeS + " il grado è {grado}, gli anni di servizio sono {anniServizio}");
+        Console.WriteLine($"Il nome del fante è {Nome}, il grado è {Grado}, gli anni di servizio sono {AnniServizio}, e utilizza l'arma: {Arma}");
     }
 }
 
