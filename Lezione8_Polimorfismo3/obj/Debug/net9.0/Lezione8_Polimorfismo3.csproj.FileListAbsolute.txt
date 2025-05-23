@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\bin\Debug\net9.0\Lezione8_Polimorfismo3.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\bin\Debug\net9.0\Lezione8_Polimorfismo3.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\bin\Debug\net9.0\Lezione8_Polimorfismo3.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\bin\Debug\net9.0\Lezione8_Polimorfismo3.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\bin\Debug\net9.0\Lezione8_Polimorfismo3.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\refint\Lezione8_Polimorfismo3.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\Lezione8_Polimorfismo3.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione8_Polimorfismo3\obj\Debug\net9.0\ref\Lezione8_Polimorfismo3.dll
