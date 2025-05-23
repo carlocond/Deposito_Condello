@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\bin\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.exe
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\bin\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.deps.json
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\bin\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\bin\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.dll
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\bin\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.pdb
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.dll
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\refint\TEST23_05_2025_ESERCIZIO2.dll
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.pdb
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\TEST23_05_2025_ESERCIZIO2.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025_ESERCIZIO2\obj\Debug\net9.0\ref\TEST23_05_2025_ESERCIZIO2.dll

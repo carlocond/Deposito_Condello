@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\bin\Debug\net9.0\TEST23_05_2025.exe
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\bin\Debug\net9.0\TEST23_05_2025.deps.json
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\bin\Debug\net9.0\TEST23_05_2025.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\bin\Debug\net9.0\TEST23_05_2025.dll
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\bin\Debug\net9.0\TEST23_05_2025.pdb
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.dll
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\refint\TEST23_05_2025.dll
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.pdb
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\TEST23_05_2025.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\TEST23_05_2025\obj\Debug\net9.0\ref\TEST23_05_2025.dll
