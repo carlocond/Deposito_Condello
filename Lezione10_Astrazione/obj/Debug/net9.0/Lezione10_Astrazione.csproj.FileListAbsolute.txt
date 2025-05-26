@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\bin\Debug\net9.0\Lezione10_Astrazione.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\bin\Debug\net9.0\Lezione10_Astrazione.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\bin\Debug\net9.0\Lezione10_Astrazione.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\bin\Debug\net9.0\Lezione10_Astrazione.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\bin\Debug\net9.0\Lezione10_Astrazione.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\refint\Lezione10_Astrazione.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\Lezione10_Astrazione.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione10_Astrazione\obj\Debug\net9.0\ref\Lezione10_Astrazione.dll
