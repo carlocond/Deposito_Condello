@@ -1,0 +1,15 @@
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\bin\Debug\net9.0\Carlo.exe
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\bin\Debug\net9.0\Carlo.deps.json
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\bin\Debug\net9.0\Carlo.runtimeconfig.json
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\bin\Debug\net9.0\Carlo.dll
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\bin\Debug\net9.0\Carlo.pdb
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.GeneratedMSBuildEditorConfig.editorconfig
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.AssemblyInfoInputs.cache
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.AssemblyInfo.cs
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.csproj.CoreCompileInputs.cache
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.sourcelink.json
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.dll
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\refint\Carlo.dll
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.pdb
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\Carlo.genruntimeconfig.cache
+D:\VersionControlC#\Progetto2_Gruppo_ACE_C-\Carlo\Carlo\obj\Debug\net9.0\ref\Carlo.dll
