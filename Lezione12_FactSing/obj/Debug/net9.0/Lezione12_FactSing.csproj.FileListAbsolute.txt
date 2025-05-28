@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\bin\Debug\net9.0\Lezione12_FactSing.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\bin\Debug\net9.0\Lezione12_FactSing.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\bin\Debug\net9.0\Lezione12_FactSing.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\bin\Debug\net9.0\Lezione12_FactSing.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\bin\Debug\net9.0\Lezione12_FactSing.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\refint\Lezione12_FactSing.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\Lezione12_FactSing.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_FactSing\obj\Debug\net9.0\ref\Lezione12_FactSing.dll
