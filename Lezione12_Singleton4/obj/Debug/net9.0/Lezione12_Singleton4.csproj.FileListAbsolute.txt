@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\bin\Debug\net9.0\Lezione12_Singleton4.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\bin\Debug\net9.0\Lezione12_Singleton4.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\bin\Debug\net9.0\Lezione12_Singleton4.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\bin\Debug\net9.0\Lezione12_Singleton4.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\bin\Debug\net9.0\Lezione12_Singleton4.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\refint\Lezione12_Singleton4.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\Lezione12_Singleton4.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione12_Singleton4\obj\Debug\net9.0\ref\Lezione12_Singleton4.dll
