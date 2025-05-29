@@ -1,102 +1,125 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 
-public interface INewsAgency
+// Interfaccia Observer: chi riceve le news
+public interface INewsObserver
 {
-    void News(string novità);
+    void Update(string message);
 }
 
-public interface INewsSubscriber
+// Singleton Subject: gestisce la lista degli osservatori
+public sealed class NewsAgency
 {
-    void Registra(INewsAgency osservatore);
-    void Rimuovi(INewsAgency osservatore);
-    void Notifica(string messaggio);
-}
+    private static NewsAgency _instance;
+    private readonly List<INewsObserver> _observers = new List<INewsObserver>();
 
-public class NewsAgency : INewsSubscriber
-{
-    private readonly List<INewsAgency> _subscribers = new List<INewsAgency>();
+    private NewsAgency() { }
 
-    public void Registra(INewsAgency osservatore)
-    {
-        _subscribers.Add(osservatore);
-    }
-
-    public void Rimuovi(INewsAgency osservatore)
-    {
-        _subscribers.Remove(osservatore);
-    }
-
-    public void Notifica(string messaggio)
-    {
-        foreach (var subscriber in _subscribers)
-        {
-            subscriber.News(messaggio);
-        }
-    }
-
-    public void AggiornaNews(string news)
-    {
-        Console.WriteLine($"Aggiornamento notizie: {news}");
-        Notifica(news);
-    }
-}
-public class MobileApp : INewsAgency
-{
-    public void News(string messaggio)
-    {
-        Console.WriteLine($"Notification on mobile: {messaggio}");
-    }
-}
-
-public class EmailClient : INewsAgency
-{
-
-    public void News(string messaggio)
-    {
-        Console.WriteLine($"Email sent: {messaggio}");
-    }
-}
-
-public sealed class Osservati
-{
-    private static Osservati _istanza;
-    private readonly List<INewsAgency> _osservatori = new List<INewsAgency>();
-
-    private Osservati() { }
-
-    public static Osservati Istanza
+    public static NewsAgency Instance
     {
         get
         {
-            if (_istanza == null)
-                _istanza = new Osservati();
-            return _istanza;
+            if (_instance == null)
+                _instance = new NewsAgency();
+            return _instance;
         }
     }
 
-    public void Registra(INewsAgency osservatore)
+    public void Register(INewsObserver observer)
     {
-        _osservatori.Add(osservatore);
+        if(!_observers.Contains(observer))
+            _observers.Add(observer);
     }
 
-    public void Rimuovi(INewsAgency osservatore)
+    public void Remove(INewsObserver observer)
     {
-        _osservatori.Remove(osservatore);
+        _observers.Remove(observer);
     }
 
-    public void Notifica(string messaggio)
+    public void Notify(string message)
     {
-        foreach (var osservatore in _osservatori)
+        foreach (var observer in _observers)
         {
-            osservatore.News(messaggio);
+            observer.Update(message);
         }
+    }
+
+    public void PublishNews(string news)
+    {
+        Console.WriteLine($"[Agenzia] Pubblica: {news}");
+        Notify(news);
     }
 }
 
+// Observer concreto: App Mobile
+public class MobileApp : INewsObserver
+{
+    public void Update(string message)
+    {
+        Console.WriteLine($"[MobileApp] Notifica: {message}");
+    }
+}
+
+// Observer concreto: Email
+public class EmailClient : INewsObserver
+{
+    public void Update(string message)
+    {
+        Console.WriteLine($"[EmailClient] Email inviata: {message}");
+    }
+}
+
+// Esempio di utilizzo
 class Program
 {
     static void Main(string[] args)
     {
-        
+        var mobile = new MobileApp();
+        var email = new EmailClient();
+
+        // Registra gli osservatori al Singleton
+        NewsAgency.Instance.Register(mobile);
+        NewsAgency.Instance.Register(email);
+
+        // Simula pubblicazione di una notizia
+        NewsAgency.Instance.PublishNews("Nuova breaking news!");
+
+        // Rimuove un osservatore e pubblica di nuovo
+        NewsAgency.Instance.Remove(email);
+        NewsAgency.Instance.PublishNews("Aggiornamento in tempo reale!");
+
+        // Output atteso:
+        // [Agenzia] Pubblica: Nuova breaking news!
+        // [MobileApp] Notifica: Nuova breaking news!
+        // [EmailClient] Email inviata: Nuova breaking news!
+        // [Agenzia] Pubblica: Aggiornamento in tempo reale!
+        // [MobileApp] Notifica: Aggiornamento in tempo reale!
     }
 }
+
+
+/* 
+Il tuo codice implementa sia l’Observer che il Singleton pattern, ma presenta alcune incongruenze:
+
+Confusione tra interfacce: INewsAgency è sia “Publisher” che “Subscriber”, mentre nella semantica dell’Observer dovresti distinguere chi genera la notizia (Publisher/Subject) e chi la riceve (Observer).
+
+La classe Osservati (Singleton) non è integrata col resto (non viene mai usata).
+
+Non c’è un esempio funzionante nel Main.
+
+Mancano i riferimenti ai namespace, tipo List<T>.
+
+Redundant interfaces: INewsSubscriber dovrebbe essere l’oggetto osservato, non l’osservatore.
+
+Incoerenza dei nomi: usi sia _subscribers che _osservatori e classi che fanno le stesse cose.
+
+
+Observer: INewsObserver e le sue implementazioni (MobileApp, EmailClient) ricevono le news.
+
+Singleton: NewsAgency ha costruttore privato e la proprietà statica Instance.
+
+Gli observer si registrano via Register, si rimuovono via Remove.
+
+Quando viene pubblicata una news, tutti gli osservatori registrati ricevono la notifica.
+
+*/
