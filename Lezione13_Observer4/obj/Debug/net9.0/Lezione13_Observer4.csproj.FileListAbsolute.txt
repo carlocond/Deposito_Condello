@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\bin\Debug\net9.0\Lezione13_Observer4.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\bin\Debug\net9.0\Lezione13_Observer4.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\bin\Debug\net9.0\Lezione13_Observer4.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\bin\Debug\net9.0\Lezione13_Observer4.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\bin\Debug\net9.0\Lezione13_Observer4.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\refint\Lezione13_Observer4.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\Lezione13_Observer4.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Observer4\obj\Debug\net9.0\ref\Lezione13_Observer4.dll
