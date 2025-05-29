@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\bin\Debug\net9.0\Lezione13_Decorator2.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\bin\Debug\net9.0\Lezione13_Decorator2.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\bin\Debug\net9.0\Lezione13_Decorator2.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\bin\Debug\net9.0\Lezione13_Decorator2.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\bin\Debug\net9.0\Lezione13_Decorator2.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\refint\Lezione13_Decorator2.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\Lezione13_Decorator2.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione13_Decorator2\obj\Debug\net9.0\ref\Lezione13_Decorator2.dll
