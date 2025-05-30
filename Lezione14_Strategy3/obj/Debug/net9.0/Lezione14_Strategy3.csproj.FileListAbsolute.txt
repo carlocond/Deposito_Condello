@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\bin\Debug\net9.0\Lezione14_Strategy3.exe
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\bin\Debug\net9.0\Lezione14_Strategy3.deps.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\bin\Debug\net9.0\Lezione14_Strategy3.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\bin\Debug\net9.0\Lezione14_Strategy3.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\bin\Debug\net9.0\Lezione14_Strategy3.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\refint\Lezione14_Strategy3.dll
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.pdb
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\Lezione14_Strategy3.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\Lezione14_Strategy3\obj\Debug\net9.0\ref\Lezione14_Strategy3.dll
