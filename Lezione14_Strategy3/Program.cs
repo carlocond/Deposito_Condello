@@ -1,11 +1,13 @@
-﻿using System;
+using System;
 
+// Interfaccia base per ogni piatto
 public interface IPiatto
 {
     string Descrizione();
     string Prepara();
 }
 
+// Implementazioni concrete dei piatti
 public class Pizza : IPiatto
 {
     public string Descrizione()
@@ -43,6 +45,7 @@ public class Insalata : IPiatto
     }
 }
 
+// Decorator base per ingredienti extra
 public abstract class IngredienteExtra : IPiatto
 {
     protected IPiatto _piatto;
@@ -63,6 +66,7 @@ public abstract class IngredienteExtra : IPiatto
     }
 }
 
+// Decorator concreti
 public class ConFormaggio : IngredienteExtra
 {
     public ConFormaggio(IPiatto piatto) : base(piatto) { }
@@ -106,6 +110,7 @@ public class ConSalsa : IngredienteExtra
     }
 }
 
+// Factory dei piatti
 public abstract class PiattoFactory
 {
     public static IPiatto CreaPiatto(string tipo)
@@ -124,11 +129,11 @@ public abstract class PiattoFactory
     }
 }
 
+// Interfaccia Strategy
 public interface IPreparazioneStrategia
 {
     string Prepara(string descrizione);
 }
-
 public class Fritto : IPreparazioneStrategia
 {
     public string Prepara(string descrizione)
@@ -151,6 +156,7 @@ public class AllaGriglia : IPreparazioneStrategia
     }
 }
 
+// Context Strategy
 public class Chef
 {
     private IPreparazioneStrategia _strategia;
@@ -175,211 +181,91 @@ public class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("Benvenuto nel ristorante!");
-        Console.WriteLine("Scegli un piatto: \n[1] Pizza \n[2] Hamburger \n[3] Insalata \n[0] Esci");
-        string scelta = Console.ReadLine();
-        bool esci = false;
-        bool agg = true;
 
+        bool esci = false;
         while (!esci)
         {
-
+            // Richiedi sempre la scelta del piatto ad ogni ciclo
+            Console.WriteLine("\nScegli un piatto: \n[1] Pizza \n[2] Hamburger \n[3] Insalata \n[0] Esci");
+            string scelta = Console.ReadLine();
 
             switch (scelta)
             {
                 case "1":
-                    Console.WriteLine("Hai scelto la Pizza.");
-                    IPiatto pizza = PiattoFactory.CreaPiatto("pizza");
-                    Console.WriteLine(pizza.Descrizione());
-                    while (agg)
-                    {
-                        Console.WriteLine("Vuoi aggiungere ingredienti extra? \n[1] Formaggio \n[2] Bacon \n[3] Salsa \n[0] Nessuno");
-                        string sceltaIngrediente = Console.ReadLine(); 
-                        switch (sceltaIngrediente)
-                        {
-                            case "1":
-                                pizza = new ConFormaggio(pizza);
-                                Console.WriteLine("Hai aggiunto formaggio extra.");
-                                break;
-
-                            case "2":
-                                pizza = new ConBacon(pizza);
-                                Console.WriteLine("Hai aggiunto bacon.");
-                                break;
-
-                            case "3":
-                                pizza = new ConSalsa(pizza);
-                                Console.WriteLine("Hai aggiunto salsa.");
-                                break;
-
-                            case "0":
-                                Console.WriteLine("Ok, nessuna aggiunta. " + pizza.Descrizione());
-                                agg = false; 
-                                Console.WriteLine("Come vuoi preparare la tua pizza? \n[1] Fritto \n[2] Al Forno \n[3] Alla Griglia");
-                                string sceltaPreparazione = Console.ReadLine();
-                                Chef chef = new Chef();
-                                switch (sceltaPreparazione)
-                                {
-                                    case "1":
-                                        chef.ImpostaStrategia(new Fritto());
-                                        Console.WriteLine(chef.PreparaPiatto(pizza));
-                                        break;
-
-                                    case "2":
-                                        chef.ImpostaStrategia(new AlForno());
-                                        Console.WriteLine(chef.PreparaPiatto(pizza));
-                                        break;
-
-                                    case "3":
-                                        chef.ImpostaStrategia(new AllaGriglia());
-                                        Console.WriteLine(chef.PreparaPiatto(pizza));
-                                        break;
-
-                                    default:
-                                        Console.WriteLine("Scelta di preparazione non valida.");
-                                        break;
-                                }
-                                break;
-
-                            default:
-                                Console.WriteLine("Scelta non valida.");
-                                break;
-                        }
-                    }
-                    
-
+                    GestisciPiatto("pizza");
                     break;
-
                 case "2":
-                    Console.WriteLine("Hai scelto l'Hamburger.");
-                    IPiatto hamburger = PiattoFactory.CreaPiatto("hamburger");
-                    Console.WriteLine(hamburger.Descrizione());
-                    while (agg)
-                    {
-                        Console.WriteLine("Vuoi aggiungere ingredienti extra? \n[1] Formaggio \n[2] Bacon \n[3] Salsa \n[0] Nessuno");
-                        string sceltaIngrediente = Console.ReadLine();
-                        switch (sceltaIngrediente)
-                        {
-                            case "1":
-                                hamburger = new ConFormaggio(hamburger);
-                                Console.WriteLine("Hai aggiunto formaggio extra.");
-                                break;
-
-                            case "2":
-                                hamburger = new ConBacon(hamburger);
-                                Console.WriteLine("Hai aggiunto bacon.");
-                                break;
-
-                            case "3":
-                                hamburger = new ConSalsa(hamburger);
-                                Console.WriteLine("Hai aggiunto salsa.");
-                                break;
-
-                            case "0":
-                                Console.WriteLine("Ok, nessuna aggiunta. " + hamburger.Descrizione());
-                                agg = false;
-                                Console.WriteLine("Come vuoi preparare il tuo hamburger? \n[1] Fritto \n[2] Al Forno \n[3] Alla Griglia");
-                                string sceltaPreparazione = Console.ReadLine();
-                                Chef chef = new Chef();
-                                switch (sceltaPreparazione)
-                                {
-                                    case "1":
-                                        chef.ImpostaStrategia(new Fritto());
-                                        Console.WriteLine(chef.PreparaPiatto(hamburger));
-                                        break;
-
-                                    case "2":
-                                        chef.ImpostaStrategia(new AlForno());
-                                        Console.WriteLine(chef.PreparaPiatto(hamburger));
-                                        break;
-
-                                    case "3":
-                                        chef.ImpostaStrategia(new AllaGriglia());
-                                        Console.WriteLine(chef.PreparaPiatto(hamburger));
-                                        break;
-
-                                    default:
-                                        Console.WriteLine("Scelta di preparazione non valida.");
-                                        break;
-                                }
-                                break;
-
-                            default:
-                                Console.WriteLine("Scelta non valida.");
-                                break;
-                        }
-                    }
+                    GestisciPiatto("hamburger");
                     break;
-
                 case "3":
-                    Console.WriteLine("Hai scelto l'Insalata.");
-                    IPiatto insalata = PiattoFactory.CreaPiatto("insalata");
-                    Console.WriteLine(insalata.Descrizione());
-                    while (agg)
-                    {
-                        Console.WriteLine("Vuoi aggiungere ingredienti extra? \n[1] Formaggio \n[2] Bacon \n[3] Salsa \n[0] Nessuno");
-                        string sceltaIngrediente = Console.ReadLine();
-                        switch (sceltaIngrediente)
-                        {
-                            case "1":
-                                insalata = new ConFormaggio(insalata);
-                                Console.WriteLine("Hai aggiunto formaggio extra.");
-                                break;
-
-                            case "2":
-                                insalata = new ConBacon(insalata);
-                                Console.WriteLine("Hai aggiunto bacon.");
-                                break;
-
-                            case "3":
-                                insalata = new ConSalsa(insalata);
-                                Console.WriteLine("Hai aggiunto salsa.");
-                                break;
-
-                            case "0":
-                                Console.WriteLine("Ok, nessuna aggiunta. " + insalata.Descrizione());
-                                agg = false;
-                                Console.WriteLine("Come vuoi preparare la tua insalata? \n[1] Fritto \n[2] Al Forno \n[3] Alla Griglia");
-                                string sceltaPreparazione = Console.ReadLine();
-                                Chef chef = new Chef();
-                                switch (sceltaPreparazione)
-                                {
-                                    case "1":
-                                        chef.ImpostaStrategia(new Fritto());
-                                        Console.WriteLine(chef.PreparaPiatto(insalata));
-                                        break;
-
-                                    case "2":
-                                        chef.ImpostaStrategia(new AlForno());
-                                        Console.WriteLine(chef.PreparaPiatto(insalata));
-                                        break;
-
-                                    case "3":
-                                        chef.ImpostaStrategia(new AllaGriglia());
-                                        Console.WriteLine(chef.PreparaPiatto(insalata));
-                                        break;
-
-                                    default:
-                                        Console.WriteLine("Scelta di preparazione non valida.");
-                                        break;
-                                }
-                                break;
-
-                            default:
-                                Console.WriteLine("Scelta non valida.");
-                                break;
-                        }
-                    }
+                    GestisciPiatto("insalata");
                     break;
-
                 case "0":
                     Console.WriteLine("Grazie per aver scelto il nostro ristorante!");
-                    esci = true; // Esce dal ciclo
+                    esci = true;
                     break;
-
                 default:
                     Console.WriteLine("Scelta non valida.");
                     break;
             }
+        }
+    }
+
+    // Funzione per gestire la logica comune dei piatti
+    public static void GestisciPiatto(string tipo)
+    {
+        IPiatto piatto = PiattoFactory.CreaPiatto(tipo);
+        Console.WriteLine($"Hai scelto: {piatto.Descrizione()}");
+
+        bool agg = true;
+        while (agg)
+        {
+            Console.WriteLine("Vuoi aggiungere ingredienti extra? \n[1] Formaggio \n[2] Bacon \n[3] Salsa \n[0] Nessuno");
+            string sceltaIngrediente = Console.ReadLine();
+            switch (sceltaIngrediente)
+            {
+                case "1":
+                    piatto = new ConFormaggio(piatto);
+                    Console.WriteLine("Hai aggiunto formaggio extra.");
+                    break;
+                case "2":
+                    piatto = new ConBacon(piatto);
+                    Console.WriteLine("Hai aggiunto bacon.");
+                    break;
+                case "3":
+                    piatto = new ConSalsa(piatto);
+                    Console.WriteLine("Hai aggiunto salsa.");
+                    break;
+                case "0":
+                    Console.WriteLine("Ok, nessuna aggiunta. " + piatto.Descrizione());
+                    agg = false;
+                    break;
+                default:
+                    Console.WriteLine("Scelta non valida.");
+                    break;
+            }
+        }
+
+        Console.WriteLine("Come vuoi preparare il tuo piatto? \n[1] Fritto \n[2] Al Forno \n[3] Alla Griglia");
+        string sceltaPreparazione = Console.ReadLine();
+        Chef chef = new Chef();
+        switch (sceltaPreparazione)
+        {
+            case "1":
+                chef.ImpostaStrategia(new Fritto());
+                Console.WriteLine(chef.PreparaPiatto(piatto));
+                break;
+            case "2":
+                chef.ImpostaStrategia(new AlForno());
+                Console.WriteLine(chef.PreparaPiatto(piatto));
+                break;
+            case "3":
+                chef.ImpostaStrategia(new AllaGriglia());
+                Console.WriteLine(chef.PreparaPiatto(piatto));
+                break;
+            default:
+                Console.WriteLine("Scelta di preparazione non valida.");
+                break;
         }
     }
 }
