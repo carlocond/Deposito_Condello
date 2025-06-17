@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\bin\Debug\net9.0\DelegateEsercizio1.exe
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\bin\Debug\net9.0\DelegateEsercizio1.deps.json
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\bin\Debug\net9.0\DelegateEsercizio1.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\bin\Debug\net9.0\DelegateEsercizio1.dll
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\bin\Debug\net9.0\DelegateEsercizio1.pdb
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.dll
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\refint\DelegateEsercizio1.dll
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.pdb
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\DelegateEsercizio1.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\DelegateEsercizio1\obj\Debug\net9.0\ref\DelegateEsercizio1.dll
