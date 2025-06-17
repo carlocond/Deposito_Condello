@@ -1,0 +1,14 @@
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\bin\Debug\net9.0\DelegateProva.exe
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\bin\Debug\net9.0\DelegateProva.deps.json
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\bin\Debug\net9.0\DelegateProva.runtimeconfig.json
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\bin\Debug\net9.0\DelegateProva.dll
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\bin\Debug\net9.0\DelegateProva.pdb
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.AssemblyInfoInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.AssemblyInfo.cs
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.dll
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\refint\DelegateProva.dll
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.pdb
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\DelegateProva.genruntimeconfig.cache
+C:\Users\Carlo\Desktop\corso_cs\DelegateProva\obj\Debug\net9.0\ref\DelegateProva.dll
